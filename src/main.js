@@ -4,8 +4,8 @@ const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 // 如果x存在就xObject，否则就给hash默认初始值
 const hashMap = xObject || [
-    { logo: 'A', url: 'https://www.acfun.cn' },
-    { logo: 'B', url: 'https://www.bilibili.com' },
+    { logo: 'I', url: 'https://www.iconfont.cn' },
+    { logo: 'F', url: 'https://www.figma.com/' },
 ];
 
 const simplifyUrl = (url) => {

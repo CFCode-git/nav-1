@@ -124,11 +124,11 @@ var x = localStorage.getItem('x');
 var xObject = JSON.parse(x); // 如果x存在就xObject，否则就给hash默认初始值
 
 var hashMap = xObject || [{
-  logo: 'A',
-  url: 'https://www.acfun.cn'
+  logo: 'I',
+  url: 'https://www.iconfont.cn'
 }, {
-  logo: 'B',
-  url: 'https://www.bilibili.com'
+  logo: 'F',
+  url: 'https://www.figma.com/'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -188,4 +188,4 @@ $("input.search").on('keypress', function (e) {
   e.stopPropagation();
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.98590ffa.js.map
+//# sourceMappingURL=main.e71426e3.js.map
