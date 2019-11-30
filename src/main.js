@@ -74,3 +74,9 @@ $(document).on('keypress', (e) => {
         }
     }
 })
+
+$("input.search").on('keypress', (e) => {
+    e.stopPropagation()
+})
+
+
