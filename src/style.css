@@ -27,7 +27,7 @@ body{
 /*style*/
 body {
     background-image:
-      url("./images/background.png");
+      url("./images/background-min.png");
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
